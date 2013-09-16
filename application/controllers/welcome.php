@@ -19,7 +19,13 @@ class Welcome extends CI_Controller {
 	 */
 	public function index()
 	{
-		$this->load->view('listingview');
+		if(!empty($_GET["action"])){
+			if($_GET["action"]=="details"){
+				$this->load->view("detailview");
+			}
+		}else{
+			$this->load->view('listingview');
+		}
 	}
 }
 

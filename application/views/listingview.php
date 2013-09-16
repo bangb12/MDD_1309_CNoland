@@ -27,6 +27,7 @@
                 <h2>Image Name</h2>
                 <img src="images/placeholder.jpg"/>
                 <p>Short description of image</p>
+                <a href=?action=details><p>More Details...</p></a>
             </div>
         </section>
         <section>
