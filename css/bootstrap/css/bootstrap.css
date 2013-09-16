@@ -212,8 +212,8 @@ body {
   background-color: #000000;
 }
 a {
-  color: #0088cc;
-  text-decoration: none;
+  color: #bf3030;
+  text-decoration: underline;
 }
 a:hover,
 a:focus {
@@ -548,6 +548,7 @@ a:focus {
 }
 p {
   margin: 0 0 10px;
+  color: #000000;
 }
 .lead {
   margin-bottom: 20px;
@@ -650,7 +651,8 @@ h2 {
   color: #520000;
 }
 h3 {
-  font-size: 24.5px;
+  font-size: 24.5px;\
+  color: #000000;
 }
 h4 {
   font-size: 17.5px;
@@ -3120,13 +3122,13 @@ input[type="submit"].btn.btn-mini {
 .nav-header {
   display: block;
   padding: 3px 15px;
-  font-size: 11px;
+  font-size: 14px;
   font-weight: bold;
   line-height: 20px;
   color: #999999;
-  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
   text-transform: uppercase;
   text-align: center;
+  background-color: #520000;
 }
 .nav li + .nav-header {
   margin-top: 9px;

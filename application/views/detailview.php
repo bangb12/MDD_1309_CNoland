@@ -7,9 +7,9 @@
 
 <body>
     <div class="container">
-        <header>
+        <header class="nav-header">
             <h1 class=".text-center">Image Base</h1>
-            <div class="nav-header">
+            <div class="nav">
                 <a href="#">Home</a>
                 <a href="#">Log-in</a>
             </div>

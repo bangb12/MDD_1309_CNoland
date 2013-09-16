@@ -8,9 +8,9 @@
 
 <body>
     <div class="container">
-        <header>
+        <header class="nav-header">
             <h1 class=".text-center">Image Base</h1>
-            <div class="nav-header">
+            <div class="nav">
                 <a href="#">Home</a>
                 <a href="#">Log-in</a>
             </div>
@@ -20,6 +20,7 @@
                 <h2>Image Name</h2>
                 <img src="images/placeholder.jpg"/>
                 <p>Short description of image</p>
+                <p><a href=?action=details>More Details...</a></p>
             </div>
         </section>
         <section>
@@ -27,7 +28,7 @@
                 <h2>Image Name</h2>
                 <img src="images/placeholder.jpg"/>
                 <p>Short description of image</p>
-                <a href=?action=details><p>More Details...</p></a>
+                <p><a href=?action=details>More Details...</a></p>
             </div>
         </section>
         <section>
@@ -35,6 +36,7 @@
                 <h2>Image Name</h2>
                 <img src="images/placeholder.jpg"/>
                 <p>Short description of image</p>
+                <p><a href=?action=details>More Details...</a></p>
             </div>
         </section>
     </div>
