@@ -19,7 +19,7 @@
                    <label><h3>Username:</h3></label>
                    <input type="text" name="username" class="input-medium" maxlength="20"/>
                    <label><h3>Password:</h3></label>
-                   <input type="text" name="password" class="input-medium" maxlength="20"/>
+                   <input type="password" name="password" class="input-medium" maxlength="20"/>
                    <input type="submit" value="submit" />
                 </form>
             </div>
