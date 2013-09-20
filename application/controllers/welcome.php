@@ -26,6 +26,9 @@ class Welcome extends CI_Controller {
 			if($_GET["action"]=="register"){
 				$this->load->view("signupview");
 			}
+			if($_GET["action"]=="home"){
+				$this->load->view("listingview");
+			}
 		}else{
 			$this->load->view('listingview');
 		}
