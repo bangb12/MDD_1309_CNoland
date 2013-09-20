@@ -7,10 +7,12 @@
 </head>
 
 <body>
+    <!---- Div containing main content ---->
     <div class="container">
         <?
             $this->load->view('header')
         ?>
+        <!---- Section Containing current images on page ---->
         <section>
             <div class="container-fluid">
                 <h2>Image Name</h2>

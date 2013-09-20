@@ -1,5 +1,9 @@
 <?php
     class Login extends CI_Controller{
+        function view()
+        {
+            $this->load->view('loginview');
+        }
         function validate_credentials()
         {
             $this->load->library('form_validation');
