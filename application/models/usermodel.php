@@ -1,20 +1,27 @@
-<?php
-    Class user extends CI_Model{
-        function login($username, $password){
-            $this->db->select('id, username, password');
-            $this->db->from('users');
-            $this->db->where('username', $username);
-            $this->db->where('password', $password);
-            $this->db->limit(1);
-            
-            $query = $this->db->get();
-            
-            if($query -> num_rows() == 1){
-                return $query->result();
-            }
-            else{
-                return false;
-            }
-        }
+<?
+
+class userModel extends CI_Model{
+    
+    public function __constract(){
+        
     }
+    
+    public function login($username,$password){ //Passes in username and password from login fields
+        //Selects from the database should something match the username and password input
+        $this->db->select('id, username, password');
+        $this->db->from('Users');
+        $this->db->where('username', $username);
+        $this->db->where('password', $password);
+        //Gets the result of the selection
+        $query = $this->db->get();
+        //If statement that leads to log in if there is a row, which means something matched.
+        if($query->num_rows() == 1){
+            return $query->result();
+        }else{
+            return FALSE;
+        }
+        
+    }
+}
+
 ?>

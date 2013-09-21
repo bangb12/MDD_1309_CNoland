@@ -215,6 +215,7 @@ body {
 a {
   color: #bf3030;
   text-decoration: underline;
+  margin: 8px;
 }
 a:hover,
 a:focus {
