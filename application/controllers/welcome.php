@@ -20,14 +20,11 @@ class Welcome extends CI_Controller {
 	public function index()
 	{
 		if(!empty($_GET["action"])){
-			if($_GET["action"]=="details"){
-				$this->load->view("detailview");
-			}
-			if($_GET["action"]=="register"){
-				$this->load->view("signupview");
-			}
 			if($_GET["action"]=="home"){
 				$this->load->view("listingview");
+			}
+			if($_GET["action"]=="details"){
+				$this->load->view("detailview");
 			}
 		}else{
 			$this->load->view('listingview');

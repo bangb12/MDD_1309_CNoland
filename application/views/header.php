@@ -9,11 +9,11 @@
                 <a href="<? echo base_url() ?>?action=home">Home</a>
                 <?
                         if($this->session->userdata('logged_in')){
-                                echo('<a href=http://localhost:8888/MDD_1309_CNoland/index.php/login/logout>Logout</a>');
+                                echo('<a href="http://localhost:8888/MDD_1309_CNoland/index.php/login/logout/">Logout</a>');
                         }else{
                                 echo('<a href="http://localhost:8888/MDD_1309_CNoland/index.php/login/view/">Log-in</a>');
                                 
-                                echo('<a href="http://localhost:8888/MDD_1309_CNoland/index.php?action=register">Sign-up</a>');
+                                echo('<a href="http://localhost:8888/MDD_1309_CNoland/index.php/signup/view/">Sign-up</a>');
                         }
                 ?>
             </div>

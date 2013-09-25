@@ -3,7 +3,7 @@
 <head>
     <meta charset="utf-8">
     <title>Sign up - ImageBase</title>
-    <link href="css/bootstrap/css/bootstrap.css" rel="stylesheet"></script>
+    <link href="../../../css/bootstrap/css/bootstrap.css" rel="stylesheet"></script>
 </head>
 
 <body>
@@ -16,7 +16,7 @@
         <!---- Section containing the signup form ---->
         <section>
             <div class="container-fluid">
-                <form>
+                <?php echo form_open('signup/register/'); ?>
                    <label><h3>Username:</h3></label>
                    <input type="text" name="username" class="input-medium" maxlength="20"/>
                    <label><h3>Password:</h3></label>
@@ -24,7 +24,7 @@
                    <label><h3>Confirm Password:</h3></label>
                    <input type="password" name="passwordconfirm" class="input-medium" maxlength="20"/>
                    <input type="submit" value="submit" />                   
-                </form>
+                <?php echo form_close(); ?>
             </div>
         </section>
     </div>
