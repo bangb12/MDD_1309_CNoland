@@ -3,7 +3,7 @@
                 session_start();
         ?>
         <header class="nav-header">
-            <h1 class=".text-center">Image Base</h1>
+            <h1 class="text-center">Image Base</h1>
             <!---- Navigation including links ---->
             <div class="nav">
                 <a href="<? echo base_url() ?>?action=home">Home</a>

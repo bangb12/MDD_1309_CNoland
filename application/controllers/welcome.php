@@ -30,6 +30,10 @@ class Welcome extends CI_Controller {
 			$this->load->view('listingview');
 		}
 	}
+	public function faq()
+	{
+		$this->load->view('faq');
+	}
 }
 
 /* End of file welcome.php */
