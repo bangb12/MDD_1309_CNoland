@@ -24,7 +24,7 @@ class userModel extends CI_Model{
     }
     public function signup(){
         //Posts data from the form into variables
-        $listing = 'http://localhost:8888/MDD_1309_CNoland/index.php?actin=home';
+        $listing = 'http://localhost:8888/MDD_1309_CNoland/index.php?action=home';
         $signup = 'http://localhost:8888/MDD_1309_CNoland/index.php/signup/view/';
         $this->load->library('form_validation');
         $this->form_validation->set_rules('username', 'Username:', 'trim|required|min_length[4]');
