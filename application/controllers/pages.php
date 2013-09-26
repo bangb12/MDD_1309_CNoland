@@ -9,6 +9,10 @@
         {
             $this->load->view($id);
         }
+        function terms()
+        {
+            $this->load->view('terms');
+        }
     }
 
 ?>
