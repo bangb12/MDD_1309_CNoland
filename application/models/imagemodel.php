@@ -5,6 +5,7 @@ class imageModel extends CI_Model{
     public function __constract(){
         
     }
+    //Takes the id passed in to determine which image to load from the database
     public function getImage($imageid){
         $this->db->select('imagepath');
         $this->db->where('id', $imageid);
