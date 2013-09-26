@@ -16,7 +16,7 @@
         <section>
             <div class="container-fluid">
                 <h2>Image Name</h2>
-                <img src="images/placeholder.jpg"/>
+                <img class="img-rounded" src="images/image1.png"/>
                 <p>Short description of image</p>
                 <p><a href=?action=details>More Details...</a></p>
             </div>
@@ -24,15 +24,7 @@
         <section>
             <div class="container-fluid">
                 <h2>Image Name</h2>
-                <img src="images/placeholder.jpg"/>
-                <p>Short description of image</p>
-                <p><a href=?action=details>More Details...</a></p>
-            </div>
-        </section>
-        <section>
-            <div class="container-fluid">
-                <h2>Image Name</h2>
-                <img src="images/placeholder.jpg"/>
+                <img class="img-rounded" src="images/image2.jpg"/>
                 <p>Short description of image</p>
                 <p><a href=?action=details>More Details...</a></p>
             </div>

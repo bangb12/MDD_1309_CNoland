@@ -204,6 +204,10 @@ textarea {
     page-break-after: avoid;
   }
 }
+.listingimage {
+  max-width: 600px;
+  max-height: 600px;
+}
 body {
   margin: 0;
   font-family: "Myriad Web Pro", Myriad Web Pro;
